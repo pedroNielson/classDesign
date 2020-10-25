@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* NavBar */
+
+nav {
+    background-color: dodgerblue;
+}
+
+.my-list {
+    margin-left: 15px;
+    width: 100%;
+}
+
+.myContent {
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* body */
+
+.main-btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.inv-row {
+    height: 198px;
+}
+
+.t1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.teste {
+    text-align: center;
+    font-size: 18px;
+}
+
+.c1 {
+    margin-bottom: 10px;
+}
+
+
+/*Footer*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    min-height: 200px;
+}
+
+Footer {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+#copy-area {
+    display: flex;
+    background-color: dodgerblue;
+    justify-items: flex-end;
+}
+
+#copy-area .container {
+    padding: 15px 0px;
+    text-align: center;
+    color: white;
+}
+
+#copy-area .container p {
+    margin-bottom: 0px;
+}
